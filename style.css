@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(210, 210, 210);
+}
+@media only screen and (max-width: 1615px) {
+    body {
+      background-color: rgb(126, 126, 126);
+      
+    }
+}
+@media only screen and (max-width: 1215px) {
+    body {
+      background-color: rgb(41, 38, 38);
+      
+    }
+  
+  }
+  @media only screen and (max-width: 815px) {
+    body {
+      background-color: black;
+    }
+  }
+.row{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.row1{
+    margin-top: 10px;
+}
+.row2{
+    margin-top: 10px;
+}
+.row3{
+    margin-top: 10px;
+}
+.row4{
+    margin-top: 10px;
+}
+.row5{
+    margin-top: 10px;
+}
+.row6{
+    margin-top: 10px;
+}
+.row7{
+    margin-top: 10px;
+}
+.row8{
+    margin-top: 10px;
+}
+
