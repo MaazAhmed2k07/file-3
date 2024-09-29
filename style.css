@@ -1,53 +1,100 @@
 body{
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(233, 233, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    
 }
-@media only screen and (max-width: 1615px) {
-    body {
-      background-color: rgb(126, 126, 126);
+.row{
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    min-height: 100vh;
+    max-width: 1600px;
+    background-color: rgb(54, 52, 52);
+    
+   
+}
+.row div{
+    
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 86%);
+    filter: grayscale(0%);
+
+
+}
+.row img{
+    width: 390px;
+    height: 460px;
+    
+    
+    
+    
+}
+ @media (min-width: 600px) and(max-width: 1023px) {
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10x;
       
     }
 }
-@media only screen and (max-width: 1215px) {
-    body {
-      background-color: rgb(41, 38, 38);
+@media (max-width: 599px) {
+    .row  {
+      
+      grid-template-columns: 1fr;
+      gap: 10px;
       
     }
   
   }
-  @media only screen and (max-width: 815px) {
-    body {
-      background-color: black;
+  @media  (min-width: 1024px) {
+    .row {
+      
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      
     }
-  }
-.row{
-    display: flex;
-    justify-content: center;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.row1{
+  } 
+
+ /* .row1{
     margin-top: 10px;
+    
 }
 .row2{
     margin-top: 10px;
+    grid-row: span 2;
 }
 .row3{
     margin-top: 10px;
 }
 .row4{
     margin-top: 10px;
+    grid-row: span 2;
 }
 .row5{
     margin-top: 10px;
 }
 .row6{
     margin-top: 10px;
+    grid-row: span 2;
 }
 .row7{
     margin-top: 10px;
 }
 .row8{
     margin-top: 10px;
-}
-
+    grid-row: span 2;
+} 
+ */
