@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(233, 233, 246);
+    background-color: rgb(243, 239, 239);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: hsl(0, 0%, 86%);
+    color: hsl(0, 0%, 1%);
     filter: grayscale(0%);
 
 
@@ -43,58 +43,33 @@ body{
     
     
 }
- @media (min-width: 600px) and(max-width: 1023px) {
-    .row {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10x;
-      
-    }
-}
-@media (max-width: 599px) {
+@media (max-width: 768px) {
     .row  {
       
       grid-template-columns: 1fr;
       gap: 10px;
+      background-color: rgb(199, 197, 197);
       
     }
   
   }
-  @media  (min-width: 1024px) {
-    .row {
+  @media (max-width: 1209px) {
+    .row  {
       
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: 1fr;
       gap: 10px;
+      background-color: rgb(123, 120, 120);
       
     }
-  } 
+  
+  }
 
- /* .row1{
-    margin-top: 10px;
-    
+
+ @media (max-width: 809px) {
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10x;
+      background-color: rgb(0, 0, 0);
+      
+    }
 }
-.row2{
-    margin-top: 10px;
-    grid-row: span 2;
-}
-.row3{
-    margin-top: 10px;
-}
-.row4{
-    margin-top: 10px;
-    grid-row: span 2;
-}
-.row5{
-    margin-top: 10px;
-}
-.row6{
-    margin-top: 10px;
-    grid-row: span 2;
-}
-.row7{
-    margin-top: 10px;
-}
-.row8{
-    margin-top: 10px;
-    grid-row: span 2;
-} 
- */
